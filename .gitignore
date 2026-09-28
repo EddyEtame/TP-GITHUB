@@ -1,1 +1,5 @@
 *.log
+
+# Secrets : jamais dans Git, seul le modèle est suivi
+*.env
+!*.env.example
