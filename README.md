@@ -77,3 +77,5 @@ Afficher l'historique en graphe quand c'est pertinent.
 1. `f0b8a4c` : `git rm --cached` sort `config/secrets.env` du suivi sans le supprimer du disque. `.gitignore` ignore désormais `*.env` (sauf `*.env.example`) et un modèle vide indique les variables à remplir. Le mot de passe reste lisible dans l'historique (`ff28a3f`) : en situation réelle, il faut le changer.
 2. `fbbea83` : commit de merge qui résout le conflit entre `feature/titre` et `feature/couleurs`. Les deux branches modifiaient la même ligne `<h1>` ; j'ai gardé les deux intentions : `<h1 class="hero">Bienvenue sur notre site</h1>`.
 3. `e24aba7` : `git revert` de `a35a690`. Un nouveau commit annule le bandeau promo sans réécrire l'historique de `main`, ce qui reste sûr sur une branche partagée, contrairement à `git reset`.
+
+#By King_E✨
