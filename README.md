@@ -61,6 +61,18 @@ Afficher l'historique en graphe quand c'est pertinent.
 
 ![Conflit résolu et poussé](captures/11c-conflit-resolu.png)
 
+## Bonus
+12. Petite feature : page 404 personnalisée, sur une branche partie du dépôt d'origine
+
+![Branche du bonus et ses deux commits](captures/12a-bonus-branche.png)
+
+13. Flux complet : Pull Request sur mon fork, CI au vert
+
+![Pull Request du bonus](captures/12b-bonus-pr-fork.png)
+
+14. Pull Request vers le dépôt d'origine
+(capture)
+
 ## Trois commits annotés
 1. `f0b8a4c` : `git rm --cached` sort `config/secrets.env` du suivi sans le supprimer du disque. `.gitignore` ignore désormais `*.env` (sauf `*.env.example`) et un modèle vide indique les variables à remplir. Le mot de passe reste lisible dans l'historique (`ff28a3f`) : en situation réelle, il faut le changer.
 2. `fbbea83` : commit de merge qui résout le conflit entre `feature/titre` et `feature/couleurs`. Les deux branches modifiaient la même ligne `<h1>` ; j'ai gardé les deux intentions : `<h1 class="hero">Bienvenue sur notre site</h1>`.
