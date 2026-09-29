@@ -23,7 +23,8 @@ Afficher l'historique en graphe quand c'est pertinent.
 ![Pull Request #1](captures/04-pull-request.png)
 
 5. Revue croisée
-(capture)
+
+![Revue croisée : ma PR sur le dépôt du binôme](captures/05-revue-croisee.png)
 
 ## Niveau 2
 6. Secret retiré du suivi
@@ -71,7 +72,8 @@ Afficher l'historique en graphe quand c'est pertinent.
 ![Pull Request du bonus](captures/12b-bonus-pr-fork.png)
 
 14. Pull Request vers le dépôt d'origine
-(capture)
+
+![Pull Request vers tristan-bsb/TP-GITHUB](captures/14-pr-depot-origine.png)
 
 ## Trois commits annotés
 1. `f0b8a4c` : `git rm --cached` sort `config/secrets.env` du suivi sans le supprimer du disque. `.gitignore` ignore désormais `*.env` (sauf `*.env.example`) et un modèle vide indique les variables à remplir. Le mot de passe reste lisible dans l'historique (`ff28a3f`) : en situation réelle, il faut le changer.
