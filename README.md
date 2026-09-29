@@ -56,6 +56,12 @@ Afficher l'historique en graphe quand c'est pertinent.
 ## Cible mobile
 11. Commit distant récupéré et conflit résolu
 
+![Commits du dépôt d'origine récupérés : conflit](captures/11a-upstream-conflit.png)
+
+![Conflit résolu, commits intégrés au graphe](captures/11b-upstream-resolu.png)
+
+Même manipulation avec un commit fait depuis GitHub en vue téléphone :
+
 ![Commit distant vu sur mobile](captures/11a-commit-distant-mobile.png)
 
 ![Pull et conflit](captures/11b-pull-conflit.png)
